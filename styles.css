@@ -124,7 +124,7 @@ body {
   #level-title {
     font-size: 150%;
     line-height: 1.5;
-    margin: 50px 0px 50px;
+    margin: 40px 0px 40px;
   }
 
   #high-score {
@@ -132,5 +132,9 @@ body {
   }
   #start-btn {
     margin-bottom: 20px;
+  }
+  #level-title .games-over {
+    font-size: 1.9rem; 
+  
   }
 }
