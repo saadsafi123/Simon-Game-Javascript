@@ -98,6 +98,59 @@ body {
   transform: scale(0.85);
 }
 
+.play {
+  font-family: "Press Start 2P", cursive;
+  font-size: 2.5rem;
+  color: #fef2bf;
+  margin: 2% 0;
+}
+
+.instructions {
+  text-align: left;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #011f3f;
+  border-radius: 10px;
+  width: 80%;
+  color: #fef2bf;
+}
+
+.instructions h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.5rem;
+  color: #fef2bf;
+}
+
+.instructions p, .instructions ol {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.instructions ol {
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer a {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  color: #fef2bf;
+  text-decoration: none;
+  background-color: #011f3f;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+footer a:hover {
+  background-color: #fef2bf;
+  color: #011f3f;
+}
+
 /* Media Queries for Mobile Devices */
 
 @media (max-width: 700px) {
@@ -137,4 +190,21 @@ body {
     font-size: 1.9rem; 
   
   }
+
+  .play {
+    line-height: 1.2;
+    font-size: 1.3rem;
+    margin: 40px 0 10px;
+}
+.instructions {
+  width: 90%;
+  padding: 10px;
+}
+.instructions p, .instructions ol {
+  font-size: 0.7rem;
+}
+.instructions h2{
+  font-size: 1rem;
+}
+
 }
